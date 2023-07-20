@@ -67,6 +67,7 @@ class PyRoombaAdapter:
 
     SENSOR = {
         # "Name", (Packet ID, Data Bytes, signed)
+        "Wall":(8,1,False)
         "Charging State": (21, 1, False),
         "Voltage": (22, 2, False),
         "Current": (23, 2, True),
